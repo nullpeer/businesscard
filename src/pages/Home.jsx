@@ -8,10 +8,10 @@ export default class Home extends Component {
       <main>
         <div className="main-container">
           <div className="home-container">
-            <h2 className="center">Главная</h2>
+            <h2 className="center">Home</h2>
             <IchLogo className="my-avatar" />
-            <p>Игорь Головко</p>
-            <Link to="about" className="more">Узнать обо мне больше</Link>
+            <p>Arthur Efimov</p>
+            <Link to="about" className="more">Get to know him better</Link>
           </div>
         </div>
       </main>
