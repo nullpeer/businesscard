@@ -8,9 +8,9 @@ export default class NotFound extends Component {
       <div>
         <div className="error-container">
           <ErrorLogo class="error-logo"/>
-          <h2 className="error">Упс! Ошибка 404</h2>
-          <p>Возможно, вы попали не в тот путь маршрутизации.</p>
-          <Link to="/" className="back-home">Вернуться домой</Link>
+          <h2 className="error">Oops! The 404 Error.</h2>
+          <p>You entered the wrong page.</p>
+          <Link to="/" className="back-home">Go back.</Link>
         </div>
       </div>
     )
